@@ -1,0 +1,64 @@
+body {
+	margin:0px;
+}
+#login {
+	position:relative;
+	left:5px;
+	float:left;
+}	
+	
+#forget {
+	position:relative;
+	left:274px;
+	margin:18px;
+	color:#005AB5;
+}
+#guide {
+	height:10%;
+	width:100%;
+	background-color:#005AB5;
+}
+ul {
+	text-align:center;
+	background-color:#005AB5;
+}
+#guide a {
+	font-weight:bold;
+	margin:18px;
+	padding:5px;
+	display:block;
+	text-decoration:none;
+}
+li {
+	list-style-type:none;
+	float:left;
+}
+li a {
+	color:white;
+}
+.guideitem:hover {
+	text-decoration:underline;
+}
+.dropmenu a:hover {
+	text-decoration:underline;
+}
+#frame {
+	position:absolute;
+	right:0px;
+	top:368px;
+}
+.dropmenu {
+	background-color:#005AB5;
+	position:absolute;
+	display:none;
+}
+ul li:hover .dropmenu {
+	display:block;
+}
+#course {
+	float:left;
+	margin:5px 10px;
+}
+#course img {
+	width:10%;
+}
